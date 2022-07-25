@@ -4,7 +4,7 @@ export const connectionSource = new DataSource({
   migrationsTableName: 'migrations',
   type: 'postgres',
   host: 'localhost',
-  port: 5432,
+  port: 2977,
   username: 'postgres',
   password: '2977',
   database: 'mediumclone',
