@@ -6,6 +6,7 @@ import { AppService } from './app.service';
 import { TagModule } from './tag/tag.module';
 import { AuthMiddleware } from './user/middlewares/auth.middleware';
 import { UserModule } from './user/user.module';
+import { ArticlesModule } from './articles/articles.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { UserModule } from './user/user.module';
     }),
     TagModule,
     UserModule,
+    ArticlesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
